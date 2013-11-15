@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="WebSocket Setting" >
+        <EditTextPreference android:title="Host"
+                            android:key="websocket_host"
+                            android:summary="Please provide websocket host">
+        </EditTextPreference>
+        <EditTextPreference android:title="Port"
+                            android:key="websocket_port"
+                            android:summary="Please provide websocket port">
+        </EditTextPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
