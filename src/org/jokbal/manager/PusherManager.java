@@ -33,7 +33,7 @@ public class PusherManager implements ConnectionEventListener
     {
         PreferencesManager preferencesManager = new PreferencesManager(context);
         PusherOptions options = new PusherOptions();
-        String host = preferencesManager.get("websocket_host", "175.126.82.80");
+        String host = preferencesManager.get("websocket_host", "j3.link-to-rink.com");
         int port = preferencesManager.get("websocket_port", 8000);
         if(!host.equals(""))
         {
