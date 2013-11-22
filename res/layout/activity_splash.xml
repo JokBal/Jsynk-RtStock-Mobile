@@ -6,5 +6,5 @@
     <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/imageView" android:background="@drawable/jpusher_bg"/>
+            android:id="@+id/imageView" android:background="@drawable/jsynk_bg"/>
 </LinearLayout>
